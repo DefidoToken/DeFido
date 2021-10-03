@@ -14,7 +14,7 @@ contract DeFido is Context, IERC20, Ownable {
   using Address for address;
 
   address payable public marketingAddress =
-    payable(0x2d1B8ba4a49C0338A301BD16ff43E4A6d2604dc3); // Marketing Address
+    payable(0xC62d840052eC09784775769b9ABB0373f8365800); // Marketing Address
   address public immutable deadAddress =
     0x000000000000000000000000000000000000dEaD;
   mapping(address => uint256) private _rOwned;
